@@ -1,0 +1,3 @@
+# Only needed to run mcp_client_demo.py (live Claude API + real MCP
+# verification). Not needed to run the three servers themselves.
+anthropic>=0.40.0

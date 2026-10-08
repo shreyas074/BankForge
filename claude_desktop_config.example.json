@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "neobank-accounts": {
+      "command": "python3",
+      "args": ["-m", "accounts_server"],
+      "cwd": "/absolute/path/to/bankforge",
+      "env": { "LOG_LEVEL": "DEBUG" }
+    },
+    "neobank-products": {
+      "command": "python3",
+      "args": ["-m", "products_server"],
+      "cwd": "/absolute/path/to/bankforge",
+      "env": { "LOG_LEVEL": "DEBUG" }
+    },
+    "neobank-compliance-comms": {
+      "command": "python3",
+      "args": ["-m", "compliance_comms_server"],
+      "cwd": "/absolute/path/to/bankforge",
+      "env": { "LOG_LEVEL": "DEBUG" }
+    }
+  }
+}
